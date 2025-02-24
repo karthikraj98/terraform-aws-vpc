@@ -75,7 +75,7 @@ resource "aws_db_subnet_group" "default" {
     var.common_tags,
     var.db_subnet_group_tags,
     {
-      Name = local.resource_name
+        Name = local.resource_name
     }
   )
 }
